@@ -1,0 +1,17 @@
+public class Math {
+  public static void main(String[] args) {
+    for (int i = 1; i <= 10; i++) {
+      double x = Math.pow(i, 2);
+      System.out.println("exponents (" + i + ") = " + x);
+    }
+    for (int i = 1; i <= 10; i++) {
+      double y = Math.sqrt(i);
+      System.out.println("sqrt (" + i + ") = " + y);
+    }
+    for (int i = 1; i <= 10; i++) {
+      double z = Math.sin(i);
+      System.out.println("sin (" + i + ") = " + z);
+    }
+  }
+}
+  
