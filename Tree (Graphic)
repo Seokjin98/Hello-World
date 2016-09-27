@@ -1,0 +1,42 @@
+public class Tree {
+  public static void main(String[] args) {
+    drawtree();
+    drawtree();
+    System.out.println("I drew two trees");
+  }
+  public static void drawtree() {
+    drawcone();
+    drawtrapizoid();
+    drawtrapizoid();
+    drawbox();
+    drawbox();
+    drawbox();
+    drawbox();
+    drawbox();
+  }
+  public static void drawbox() {
+    System.out.println("   +------+");
+    System.out.println("   |      |");
+    System.out.println("   |      |");
+    System.out.println("   +------+");
+  }
+  public static void drawcone() {
+    System.out.println("      /\\");
+    System.out.println("     /  \\");
+    System.out.println("    /    \\");
+    System.out.println("   /      \\");
+    System.out.println("  /        \\");
+    System.out.println(" /          \\");
+    System.out.println("/            \\");
+    System.out.println("---------------");
+    drawbox();
+  }
+  public static void drawtrapizoid() {
+    System.out.println("    ------");
+    System.out.println("   /      \\");
+    System.out.println("  /        \\");
+    System.out.println(" /          \\");
+    System.out.println("/            \\");
+    System.out.println("---------------");
+  }
+}
