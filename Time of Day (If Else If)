@@ -1,0 +1,27 @@
+public class TimeofDay {
+  public static void main(String[] args) {
+    
+    for (int i = 1; i <= 24; i++) {
+    
+    int greetings = i;
+    
+    if (greetings > 12) {
+      
+      System.out.println("Good Afternoon");
+      
+    } else if (greetings == 12) {
+      
+      System.out.println("It's noon");
+      
+    } else if (greetings > 6) {
+      
+      System.out.println("Good morning");
+      
+    } else {
+      
+      System.out.println("zzz");
+    }
+      
+    }
+  }
+}
