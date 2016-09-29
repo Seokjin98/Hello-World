@@ -1,0 +1,22 @@
+public class Switch {
+  public static void main(String[] args) {
+     for (int i = 1; i <= 4; i++) {
+       for (int j = 1; j <= 5; j++) {
+    
+    int penaltykick = j;
+    String penalitykickOption;   
+    switch (penaltykick) {
+      
+      case 1 : penalitykickOption = "Messi shoots to the left and scores!";
+      break;
+      case 2 : penalitykickOption = "Messi shoots to the right and misses the goal!";
+      break;
+      case 3 : penalitykickOption = "Messi shoots down the center, but the keeper blocks it!";
+      break;
+      default: penalitykickOption = "Messi is in position...";
+    }
+    System.out.println(penalitykickOption);
+   }
+  }
+ }   
+}
